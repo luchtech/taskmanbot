@@ -1,0 +1,12 @@
+Token: EAADfxS1ni00BAFZBnX2VUz13vspA7nl1TLuDULZABrpczNSKm8p7zQFsP4WOqboTSjFtTxdssM8NcsxfVI14FkjjhEswFkUQ30EwmyPaLj3aMl5762VG8j2IqsF4PRtIPJSnDFyxFa7ZC3JBiDP3hEi76eaO5RO2qZCtHUnPLgZDZD
+
+Commands:
+
+heroku login
+heroku create
+git add .
+git commit -m "Message"
+git push heroku master
+
+Shortcut
+git config --global alias.cmp "!f() { git add -A && git commit -m \"$@\" && git push heroku master; }; f"
