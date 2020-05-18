@@ -2,7 +2,7 @@
   "name": "taskmanbot",
   "version": "1.0.0",
   "description": "",
-  "main": "src/bin/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "node dist",
     "dev": "nodemon src/index.ts",
